@@ -1,0 +1,83 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body{
+    background-color: #ddf;
+}
+
+header{
+    width: 100%;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+h1{
+    display: inline-block;
+    margin: 0;
+}
+
+.botones{
+    margin-top: 5px;
+    user-select: none;
+}
+
+.contenedor-universal{
+    width: 100%;
+    text-align: center;
+    user-select: none;
+}
+
+.contenedor-celsius, .contenedor-fahrenheit{
+    display: inline-block;
+    margin-left: 10px;
+    background-color: #d916f3;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    padding-left: 5px;
+    user-select:text;
+}
+
+input{
+    outline: none;
+    border: none;
+    font-size: 1.2rem;
+    margin: 3px;
+    width: 8rem;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    background-color: #ddf;
+}
+
+#btn-reset, #btn-calc{
+    border: none;
+    padding: 8px;
+    margin-right: 5px;
+    font-size: 1.3rem;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+    background-color: #d916f3;
+    font-weight: bold;
+    cursor: pointer;
+    user-select: none;
+    transition: background-color .5s ease;
+    -webkit-transition: background-color .5s ease;
+    -moz-transition: background-color .5s ease;
+    -ms-transition: background-color .5s ease;
+    -o-transition: background-color .5s ease;
+}
+
+#btn-reset:hover, #btn-calc:hover{
+    background-color: #61056d;
+    color: #ddf;
+}
